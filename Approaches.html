@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<div>
+<nav>
+            <a href="Introduction.html">Introduction</a>
+            <a href="IdealStage.html">Ideal Stage</a>
+            <a href="LLE.html">LLE</a>
+            <a href="Multicomponet.html">Multi-component</a>
+            <a href="Adsorption.html">Adsorption</a>
+            <div class="animation start-home"></div>
+            <style>
+            nav{
+            margin:27px auto 0;
+        
+            position:relative;
+            width:571px;
+            height:50px;
+            background-color: #34495e;
+            border-radius:8px;
+            font-size: 0;
+        }
+        
+        nav a{
+            line-height: 50px;
+            height: 100%;
+            font-size:15px;
+            display: inline-block;
+            position: relative;
+            z-index: 1;
+            text-decoration: none;
+            text-transform: none;
+            text-align: center;
+            color: white;
+            cursor: pointer;
+        }
+        nav .animation{
+            position: absolute;
+            height: 100%;
+            top: 0%;
+            z-index: 0;
+            transition: all ,.40s ease 0s;
+            border-radius: 8px;
+        }
+        a:nth-child(1){
+            width: 100px;
+        }
+        a:nth-child(2){
+            width: 110px;
+        }
+        a:nth-child(3){
+            width: 100px;
+        }
+        a:nth-child(4){
+            width: 160px;
+        }
+        a:nth-child(5){
+            width: 100px;
+        }
+        nav.start-home,a:nth-child(1):hover~.animation{
+            width: 100px;
+            left: 0;
+            background-color: #1abc9c;
+        }
+        nav .start-about,a:nth-child(2):hover~.animation{
+            width:110px;
+            left:100px;
+            background-color:#e74c3c;
+        }
+        nav .start-blog,a:nth-child(3):hover~.animation{
+            width:100px;
+            left:210px;
+            background-color: #3498db;;
+        }
+        nav .start-portefolio,a:nth-child(4):hover~.animation{
+            width:150px;
+            left:310px;
+            background-color: #9b59b6;;
+        }
+        nav .start-contact,a:nth-child(5):hover~.animation{
+            width:100px;
+            left:470px;
+            background-color: #e67e22;;
+        }
+        body{
+            font-size: 12px;
+            font-family: sans-serif;
+            background-color: #2c3e50;
+        }
+        span{
+            color: #2BD6B4;
+        }
+            </style>
+        </nav>
+
+    <body>
+        <h1>Approaches</h1><br>
+        <p1>Four main types of approaches:</p1><br>
+    
+        <h2>ESA - Energy Separating Agent</h2><br>
+        <p2>Add or remove heat from system<br>
+            ~ Exploits Thermodynamics properties (Tbp and Tmp)<br>
+            ~ Unit ops: <br>
+              • Distillation<br>
+              • Crystallization<br>
+            Benefits: <br>
+              • High purity<br>
+              • Simple idea/concept<br>
+              • High capacity<br>
+            Drawbacks:<br>
+              • High cost<br>
+        </p2>
+        <img src ="Images\ESA.png" 
+             width ="800"
+             height="auto" />
+
+
+        <h3>MSA - Material Separating Agent</h3>
+        <p3>~ Exploits Thermodynamics properties solubility<br>
+            ~ Unit ops: <br>
+             • Absorption Column <br>
+             • Stripping Column <br>
+             • Liquid-Liquid Extraction <br>
+             Benefits: <br>
+             • Inexpensive <br>
+             • High capacity <br>
+             Drawbacks: <br>
+             • Not a final step <br>
+             • Need to identify a sutiable solvent<br>
+        </p3>
+        <img src ="Images\MSA.png"
+            width = "800"
+            height= "auto" />
+
+        <h4>Solid Agents</h4>
+        <p4>~ Exploits Adsorptivity, Van der walls, and dispersion<br>
+            ~ Unit ops: <br>
+             • Adsorption Column<br>
+             • Chromatography<br>
+             • Ion-Exchange <br>
+             Benefits:<br>
+             • High purity<br>
+             Drawbacks<br>
+             • Limited Capacity<br>
+        </p4>
+        <h6>Filter/Membrane</h6>
+        <img src ="Images\Solid_Agents.png"
+        width = "800"
+        height= "auto" />
+
+        <h6>Adsorption</h6><br>
+        <img src ="Images\Adsorption_.png"
+        width = "800"
+        height= "auto" 
+        alt = "Adsorption"/><br>
+
+        <h5>External Fields</h5>
+        <p5>~ Exploits Molecular weight, Dipole, and charge<br>
+            ~ Unit ops<br>
+             • Slug catcher
+             • Centrifuge
+             • Electrodialysis
+        </p5>
+        <img src = "Images/External_Fields.png"
+             width="800"
+             height="auto"
+             text-align="center">
+
+
+
+    <style>
+
+img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h1{
+        color: white;
+        font-size: 20px;
+        position:relative;
+        left: 35px;
+        text-align: center;
+    }
+    h6{
+        text-align: center;
+        color: white;
+        font-size:20px;
+    }
+
+    h7{
+        text-align: center;
+        color: white;
+        font-size:20px;
+    }
+    p1{
+        position:relative;
+        left: 35px;
+        color: white;
+        font-size: 20px;
+    }
+
+    p2{
+        position:relative;
+        left: 35px;
+        color: white;
+        font-size: 20px;
+    }
+    
+    h2{
+        color: white;
+        font-size: 20px;
+        position:relative;
+        left: 35px;
+        text-align: center;
+        
+    }
+
+
+
+    h3{
+        color: white;
+        font-size: 20px;
+        position:relative;
+        left: 35px;
+        text-align: center;
+    }
+
+    h4{
+        color: white;
+        font-size: 20px;
+        position:relative;
+        left: 35px;
+        text-align: center;
+    }
+
+    h5{
+        color: white;
+        font-size: 20px;
+        position:relative;
+        left: 35px;
+        text-align: center;
+    }
+
+    p3{
+        position:relative;
+        left: 35px;
+        color: white;
+        font-size: 20px;
+    }
+
+    p4{
+        position:relative;
+        left: 35px;
+        color: white;
+        font-size: 20px;
+    }
+
+    p5{
+        position:relative;
+        left: 35px;
+        color: white;
+        font-size: 20px;
+    }
+
+    
+    </style>
+    </body>
+
+    </div>    
+</html>
